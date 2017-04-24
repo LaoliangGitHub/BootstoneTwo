@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Boostnote</title>
+  <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+  <style type="text/css">
+/*  .header{width: 100%;
+height: 100%;
+position: fixed;
+background-image: url(images/back2.jpg);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+background-size: 100% 100%;}*/
+    .header{background: url("images/back2.jpg") no-repeat center top;background-position: center center;width:100%;min-height:529px;background-size:100% 100%;padding-top: 30px;position:absolute;}
+    /*.header{background: url("images/back2.jpg") no-repeat center top;padding-top: 10px;text-align: center;background-attachment:relative;background-position:center center;min-height: 506px;width: 100%;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}*/
+    .first-row div a{float: left;color: #fff;font-size: 22px;font-weight: bold;text-decoration: none;}
+    .first-row div a img{width: 28px;height: 28px;}
+    .first-row div ul{float: right;color: #fff;padding-top:5px;}
+    .first-row div ul li{list-style: none;display: inline;}
+    .first-row div ul li a{font-size: 17px;padding:0 10px;}
+    @media(max-width: 867px){
+      .first-row div ul{font-size: 10px;float:none;}
+    }
+    @media(max-width: 260px){
+      .first-row div ul{display: none;}
+    }
+    .second-row{width: 100%;display: block;margin-left: auto;margin-right: auto;margin-top: 50px;color: #fff;margin-bottom: 0px;text-align: center;}
+    .second-row div img{width: 96px;height: 96px;display: block;margin-left: auto;margin-right:auto;}
+    .second-row div h1{letter-spacing:5px;margin-top: 35px;}
+    .second-row div div{width: 200px;height: 37px;background:#1EC38B;text-align: center;line-height: 37px;margin-top: 35px;}
+    .second-row div div a{text-decoration: none;color: #fff;}
+
+
+    .third-row{width: 80%;position: relative;top:0px;margin-top: 30px;}
+    .third-row div img{max-width:100%;margin-bottom: 0px;}
+    @media(max-width: 590px){
+    .header{background: url("images/back2.jpg") no-repeat center top;background-position: center center;width:100%;height: 549px;background-size:100%;-webkit-background-size:cover;padding-top: 30px;}
+    }
+    .middle{width:100%;position:relative;border-bottom:1px solid #eee;}
+    .fourth-row{max-width: 1000px;display: block;margin-left:auto;margin-right:auto;text-align: center;margin-top: 35px;}
+    .fourth-row h3{color: #6B8692;}
+    .fourth-row ul li{list-style: none;}
+    .fourth-row ul li h4 span{color:#488BC7;padding-right: 5px;}
+    .bottom{width:100%;position:relative;border-bottom:1px solid #eee;text-align: center;}
+    .bottom div p{font-size: 19px;height: 80px;line-height:80px;}
+    .bottom h4{background:#6D758C;height:50px;margin-bottom: 0px;line-height: 50px;color:#fff;}
+  </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+      <div class="container">
+        <div class="row first-row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <a>
+            <img src="images/logo.png">
+            Bootstone
+            </a>
+            <ul>
+              <li><a>Change log</a></li>
+              <li><a>Team/Comming soon</a></li>
+              <li><a>Shop</a></li>
+              <li><a>Respository</a></li>
+            </ul>
+          </div>
+        </div><!-- first-row -->
+        
+        <div class="row second-row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="images/logo.png">
+            <h1>Write like a NINJA</h1>
+            <h4>Boostnote is an open source note-taking app made for programmers just like you.</h4>
+            <div class="center-block"><a href="###">Free Download</a></div>            
+          </div>              
+        </div><!-- second-row -->
+
+        <div class="row third-row center-block">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                 <img src="images/top.png">       
+          </div>
+        </div><!-- third-row -->
+      
+      </div><!--container-->
+
+    </div><!-- header -->
+    
+    <div class="middle">
+        <div class="container">
+          <div class="row fourth-row">
+            <h3>Features</h3>
+            <ul>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4><span class="glyphicon glyphicon-film"></span> No Internet Required</h4>
+                <h5>There is no internet connection? It's OK. You can use the Boostnote</h5>
+              </li>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4><span class="glyphicon glyphicon-music"></span>Markdown Support</h4>
+                <h5>Take your notes in Markdown with our live previewer.</h5>
+              </li>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4><span class="glyphicon glyphicon-file"></span>Snippet Note</h4>
+                <h5>Just like Gist, keep your snippets as a note.</h5>
+              </li>
+            </ul>
+          </div>
+          <!-- fourth row -->
+
+          <div class="row fourth-row">
+            <ul>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4><span class="glyphicon glyphicon-flag"></span> No Internet Required</h4>
+                <h5>There is no internet connection? It's OK. You can use the Boostnote</h5>
+              </li>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4><span class="glyphicon glyphicon-inbox"></span>Markdown Support</h4>
+                <h5>Take your notes in Markdown with our live previewer.</h5>
+              </li>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h4><span class="glyphicon glyphicon-lock"></span>Snippet Note</h4>
+                <h5>Just like Gist, keep your snippets as a note.</h5>
+              </li>
+            </ul>
+          </div>
+          <!--fourth-row  -->
+        </div>
+    </div><!-- middle -->
+
+    <div class="bottom" style="width:100%;">
+        <div class="container">
+        <h2>Free Download</h2>
+          <div class="row fourth-row">            
+            <ul>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="images/logof.png">
+              </li>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="images/logof.png">
+              </li>
+              <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="images/logof.png">
+              </li>
+            </ul>
+          </div>
+          <!-- fourth row -->  
+          <p>You can also find our app on AUR(Arch Linux)</p>       
+        </div>
+        <h4>Power By @CN</h4>
+    </div><!-- middle -->
+      
+
+    <script type="text/javascript">
+        var hheight=$(".header").height();
+        var mheight=$(".middle").css("top",hheight);
+        $(window).resize(function(){
+            var hheight=$(".header").height();
+            var mheight=$(".middle").css("top",hheight);
+        });        
+    </script>
+
+    <script type="text/javascript">
+        // var mheight=$(".middle").css("top");
+        // var bheight=$(".bottom").css("top",mheight);
+        // $(window).resize(function(){
+        // var mheight=$(".middle").css("top");
+        // var bheight=$(".bottom").css("top",mheight);
+        // }); 
+        // <script type="text/javascript">
+        var hheight=$(".header").height();
+        var bheight=$(".bottom").css("top",hheight);
+        $(window).resize(function(){
+        var hheight=$(".header").height();
+        var bheight=$(".bottom").css("top",hheight);
+        });        
+    </script>       
+    </script>
+</body>
+</html>
+
